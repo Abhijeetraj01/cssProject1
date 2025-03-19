@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    text-align: center;
+    
+}
+
+header {
+    background: linear-gradient(270deg, #30cfd0, #330867);
+    background-size: 400% 400%;
+    animation: gradientShift 6s infinite alternate;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.book {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), 
+                box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.book:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.book:hover {
+    border: 2px solid rgba(156, 212, 212, 0.8);
+    box-shadow: 0 12px 24px rgba(141, 236, 236, 0.6);
+}
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* .book h2 {
+    font-size: 18px;
+    margin: 10px 0;
+} */
+.book h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #2c3e50;
+    transition: color 0.3s ease-in-out;
+}
+
+.book:hover h2 {
+    color: #30cfd0;
+}
+.book h3 {
+    font-size: 16px;
+    color: #555;
+}
+
+.book p {
+    font-size: 14px;
+    color: #777;
+}
+
