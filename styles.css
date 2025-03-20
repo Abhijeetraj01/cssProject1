@@ -78,6 +78,27 @@ header {
 
 .book p {
     font-size: 14px;
-    color: #777;
+    color: #7c7c7c;
 }
 
+footer {
+    background: linear-gradient(270deg, #30cfd0, #330867);
+    background-size: 400% 400%;
+    animation: gradientShift 6s infinite alternate;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 3px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 100%;
+}
+
+footer:hover {
+    background: linear-gradient(270deg, #330867, #30cfd0);
+}
+header:hover {
+    background: linear-gradient(270deg, #330867, #30cfd0);
+}
