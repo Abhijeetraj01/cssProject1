@@ -47,7 +47,7 @@ header {
 }
 
 .book:hover {
-    border: 2px solid rgba(156, 212, 212, 0.8);
+    border: 2px solid rgba(183, 232, 232, 0.8);
     box-shadow: 0 12px 24px rgba(141, 236, 236, 0.6);
 }
 .book img {
@@ -82,7 +82,7 @@ header {
 }
 
 footer {
-    background: linear-gradient(270deg, #30cfd0, #330867);
+    background: linear-gradient(270deg, #2acdcd, #330867);
     background-size: 400% 400%;
     animation: gradientShift 6s infinite alternate;
     color: white;
